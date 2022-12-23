@@ -1,0 +1,41 @@
+html {
+  	box-sizing: border-box;
+}
+body{
+	font-size: 18px;
+}
+.top {
+	text-align: center;
+	background-color: #222f3e;
+	margin:0 0 50px 0;
+	padding: 50px 0 50px 0;
+	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+.main{
+	overflow:auto;
+	display:flex;
+	justify-content: space-evenly;
+	margin: 30px 0 30px 0;
+	padding: 30px 20px 50px 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+.main .avatar img{
+	position:relative;
+	border: 2px solid black;
+	border-radius: 20px 0 20px 0;
+}
+.main .info{
+	position:relative;
+	line-height: 20px;
+}
+
+.button {
+	border: none;
+ 	padding: 8px;
+  	color: white;
+  	background-color: #222f3e;
+  	text-align: center;
+  	cursor: pointer;
+  	width: 100%;
+}

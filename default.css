@@ -1,0 +1,26 @@
+
+.body {
+    display: flex;
+    padding: 50px 20px 50px 20px ;
+    margin: 20px;
+    justify-content: space-evenly;
+    border-style: solid;
+    border-width: 10px;
+    border-image: linear-gradient(45deg, black, white) 1;
+    
+}
+
+.body .info {
+	
+    display: flex;
+    font-size: 38px;
+    position: relative;
+    flex-direction: column;
+    text-align:center;
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.body .note {
+    font-size: 20px;
+}
